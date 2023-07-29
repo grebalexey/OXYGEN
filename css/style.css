@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+.header__top{
+    height: 94px;
+    background: #FFF;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+}
