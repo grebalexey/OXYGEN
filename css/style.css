@@ -1,13 +1,114 @@
 body{
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    
 }
 
 .header__top{
     height: 94px;
     background: #FFF;
     display: flex;
+    
+}
+
+.header__top-inner{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    padding: 26px 704px 26px 52px;
 }
 
 .menu{
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu__list{
     display: flex;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: #373A39;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+li{
+    list-style: none;
+}
+
+.menu__list-item + .menu__list-item{
+    margin-left: 50px;
+}
+
+.header__content-inner{
+    height: 752px;
+    width: 1440px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/Header-bg.jpg), lightgray 50% / cover no-repeat;
+
+}
+
+.header__content-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 213px 500px 18.5px;
+}
+
+.header__content-description{
+    color: #FCBB08;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.743px;
+}
+
+.header__content-decor{
+    padding: 179.5px 707px 62px;
+}
+
+.about{
+    width: 1440px;
+    height: 491px;
+    background: #F6F8FA;
+    
+}
+
+.about__inner{
+    display: flex;
+}
+
+.title{
+    color: #242121;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px; /* 156.25% */
+    letter-spacing: -1.65px;
+    padding: 143px 0 273px 135px;
+}
+
+.about__text{
+    width: 770px;
+    padding: 152px 135px 159px;
+    color: #373A39;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 171.429% */
 }
